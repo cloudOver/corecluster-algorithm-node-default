@@ -8,15 +8,15 @@ def version():
     return v[1:-1]
 
 setup(
-  name = 'corecluster',
+  name = 'corecluster-algorithm-node-default',
   packages = find_packages(exclude=['config', 'config.*']),
-  version = '16.10.10',
-  description = 'CloudOver core IaaS system',
-  author = 'Marta Nabozny',
-  author_email = 'martastrzet@gmail.com',
-  url = 'http://cloudover.org/corecluster/',
+  version = '16.11.01',
+  description = 'Node select algorithm for CoreCluster',
+  author = 'Maciej Nabozny',
+  author_email = 'maciej.nabozny@cloudover.io',
+  url = 'http://cloudover.org',
   download_url = 'https://github.com/cloudOver/CoreCluster/archive/master.zip',
   keywords = ['corecluster', 'cloudover', 'cloud'],
   classifiers = [],
-  install_requires = ['corenetwork', 'django-timedeltafield', 'redis'],
+  install_requires = ['corecluster'],
 )
