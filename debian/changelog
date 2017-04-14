@@ -1,3 +1,10 @@
+corecluster-algorithm-node-default (17.04.01) unstable; urgency=low
+
+  * AGPLv3 License
+
+ -- Maciej Nabozny <maciej.nabozny@cloudover.io> 14 Apr 2017 10:00:00 +0200
+
+
 corecluster-algorithm-node-default (16.12.01) unstable; urgency=low
 
   * Initial package structure
