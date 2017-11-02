@@ -55,6 +55,6 @@ def select(template, image):
     if not available_nodes:
         raise CoreException('node_not_available')
 
-    # Get best matching (most filled) node
+    # Get best matching (miedian filled) node
     available_nodes.sort(key=lambda node: node.cpu_free)
-    return available_nodes[0]
+    return available_nodes[int(len(available_nodes)/2)]

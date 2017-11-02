@@ -1,5 +1,5 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: corecluster-algorithm-node-default
+Upstream-Name: corecluster-algorithm-node-fillup
 Source: <http://cloudover.org/>
 
 Files: *

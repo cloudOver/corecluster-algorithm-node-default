@@ -1,4 +1,4 @@
-Source: corecluster-algorithm-node-default
+Source: corecluster-algorithm-node-fillup
 Section: contrib
 Priority: extra
 Maintainer: Maciej Nabozny <maciej.nabozny@cloudover.io>
@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 8.0.0), dh-systemd
 Standards-Version: 3.9.4
 Homepage: http://cloudover.org/corecluster/
 
-Package: corecluster-algorithm-node-default
+Package: corecluster-algorithm-node-fillup
 Architecture: all
 Depends: corecluster
 Description: Default node selection algorithm

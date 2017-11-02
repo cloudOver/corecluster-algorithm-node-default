@@ -14,4 +14,4 @@ egg_upload:
 	# python setup.py sdist bdist_egg upload
 	python setup.py sdist upload
 egg_clean:
-	rm -rf build/ dist/ pyCore.egg-info/ corecluster-algorithm-node-default.egg-info/
+	rm -rf build/ dist/ pyCore.egg-info/ corecluster-algorithm-node-fillup.egg-info/
