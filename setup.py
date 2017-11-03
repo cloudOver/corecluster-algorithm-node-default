@@ -8,7 +8,7 @@ def version():
     return v[1:-1]
 
 setup(
-  name = 'corecluster-algorithm-node-default',
+  name = 'corecluster-algorithm-node-fillup',
   packages = find_packages(exclude=['config', 'config.*']),
   version = '17.04.01',
   description = 'Node select algorithm for CoreCluster',
